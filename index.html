@@ -1,45 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./assets/css/style.css">
-        <title>Chad Bowler - Developer</title>
-    </head>
-    <body>
-        <header>
-            <div id="header-name"></div>
-            
-            <nav><ul>
-                <li><a href="#"> Home</a></li>
-                <li><a href="#"> About</a></li>
-                <li><a href="#"> Contact</a></li>
-                <li><a href="#"> Huh</a></li>
-                <!-- <div class="btn" href="#card4">Home</div> -->
-            </ul></nav>
-        </header>
-        <div id="content-wrap">
-            <div class="container">
-                <div class="card" id="card1">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-                <div class="card" id="card2">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores incidunt, ipsa nulla aut excepturi minima quidem harum rem voluptatibus eum facere sint quae minus id ad pariatur dolores eveniet reiciendis?</p>
-                </div>
-                <div class="card" id="card3">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                </div>
-                <div class="card" id="card4">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos consectetur delectus natus pariatur?</p>
-                </div>
-            </div>
-        <!-- <div class="hero"></div> -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>Chad Bowler - Developer</title>
+</head>
+<body>
+    <header>
+        <h1>Chad Bowler - Developer</h1>
+        <nav id="topnav">
+            <ul>
+                <li><a href="#about" class="button">About</a></li>
+                <li><a href="#projects" class="button">Projects</a></li>
+                <li><a href="#contact" class="button">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <img id="mypic" src="./assets/images/Avatar.png" alt="Picture of me">
+        <div id="about">
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, saepe quas. Optio veniam nihil aperiam quae velit minus culpa quibusdam.</p>
         </div>
-        <footer>
-            <h4>Footer Here</h4>
-            <nav></nav>
-        </footer>
-        <div id="whiterabbit"></div>
-    </body>
+        <div id="projects">
+            <section class="card" id="card1">
+               <h2>Project 1</h2>
+                <img src="./assets/images/Computer-code-2.png" alt="" id="image">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, culpa. <span><a href="" class="button">Let's see it!</a></span></p>
+            </section>
+            <section class="card" id="card2">
+                <h2>Project 2</h2>
+                <img src="./assets/images/Computer-puzzles-2.jpg" alt="" class="images">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, culpa. <span><a href="" class="button">Let's see it!</a></span></p>
+            </section>
+            <section class="card" id="card3">
+                <h2>Project 3</h2>
+                <img src="./assets/images/glass_skyscraper_1.png" alt="" class="images">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, culpa. <span><a href="" class="button">Let's see it!</a></span></p>
+            </section>
+        </div>
+        
+    </main>
+    <div id="contact">
+        <h2>Contact Me</h2>
+        <p>By Phone: (801) 555-5555</p>
+        <br>
+        <p>By Email: chadbowler@gmail.com</p>
+        <p></p>
+        
+    </div>
+    <footer id="footer">
+        This is the footer
+    </footer>
+</body>
 </html>
