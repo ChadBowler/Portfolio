@@ -21,7 +21,7 @@ body {
     background-color: var(--bgdarkgray);
     min-height: 100%;
     width: 100%;
-    background-image: url(/assets/images/old_computers_1.png);
+    background-image: url(../images/old_computers_1.png);
     background-position: center;
     background-size: contain;
 }
@@ -127,7 +127,7 @@ p {
     min-height: 200px;
     width: 200px;
     /* background-color: aqua; */
-    background-image: url(/assets/images/Code-glitch-1.gif);
+    background-image: url(../images/Code-glitch-1.gif);
     background-position: center;
     background-size: cover;
     border-radius: 20px 0 0 20px;
