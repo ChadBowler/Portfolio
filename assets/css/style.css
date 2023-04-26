@@ -234,13 +234,15 @@ p {
         align-items: center;
         justify-content: center;
     }
+
+    
      #contact {
         display: block;
     }
    
     #proj-1-image {
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
     }
 
     .images {
