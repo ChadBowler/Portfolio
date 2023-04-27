@@ -255,9 +255,13 @@ a {
 @media screen and (max-width: 750px) {
     * {
         display: flex;
-        max-width: 90%;
+        
         align-items: center;
         justify-content: center;
+    }
+
+    body{
+        max-width: 90%;
     }
 
     
