@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    /* border: 5px solid black; */
+    /* border: 5px solid white; */
 }
 
 :root {
@@ -75,6 +75,7 @@ li {
     text-decoration: none;
     margin: 5px;
     font-family: 'Roboto', sans-serif;
+    font-weight: 800;
     border: 3px solid black;
     border-radius: 10px;
     background-color: aliceblue;
@@ -115,9 +116,11 @@ li {
 h2 {
     color: whitesmoke;
     font-family: 'Roboto', sans-serif;
-    padding: 30px;
+    padding: 25px;
 }
+
 p {
+    margin: 2px;
     font-family: 'Playfair Display', serif;
     color: whitesmoke;
     white-space: pre-wrap;
@@ -140,6 +143,11 @@ p {
     justify-content: space-between;
     gap: 2em;
     margin-top: 10px;
+}
+
+#projects-header {
+    width: 100%;
+    font-size: 3rem;
 }
 
 .card {
@@ -187,11 +195,21 @@ p {
     border: 3px dotted rgb(196, 177, 6);
 }
 
-#proj-1-image {
+.images:hover {
+
+}
+
+.proj-1-image {
     width: 350px ;
     height: 350px ;
     align-self: center;
     border: 3px dotted rgb(196, 177, 6);
+}
+
+.proj-1-image:hover, .images:hover {
+    border: 3px solid rgb(196, 177, 6);
+    box-shadow: 5px 5px black;
+    translate: -5px -5px;
 }
 
 #contact {
@@ -211,7 +229,14 @@ p {
 
 }
 
+a {
+    text-decoration: none;
+}
 
+.link > p:hover {
+    text-shadow: 5px 5px black;
+    translate: -5px -5px;
+}
 
 #footer {
     position: relative;
@@ -230,7 +255,7 @@ p {
 @media screen and (max-width: 750px) {
     * {
         display: flex;
-        max-width: 450px;
+        max-width: 90%;
         align-items: center;
         justify-content: center;
     }
