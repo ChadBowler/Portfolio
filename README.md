@@ -5,8 +5,8 @@ https://chadbowler.github.io/Portfolio/
 
 ## Features
 
-* Many of the images for this project were created using Midjourney - https://midjourney.com/home/?callbackUrl=%2Fapp%2F
-* The avatar was created using Ready Player Me - https://readyplayer.me
+* Clickable images (click the image to go to the project site)
+* Github links for each project.
 
 ## Screenshot
 
@@ -22,8 +22,8 @@ The best contributions you could make for this project is constructive criticism
 
 ## Credit
 
-Midjourney - https://midjourney.com/home/?callbackUrl=%2Fapp%2F
+* Background image created with - Midjourney - https://midjourney.com/home/?callbackUrl=%2Fapp%2F
 
-Ready Player Me - https://readyplayer.me
+* Avatar created with - Ready Player Me - https://readyplayer.me
 
 
