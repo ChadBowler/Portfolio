@@ -190,7 +190,7 @@ p {
 }
 
 .images {
-    max-width: 200px;
+    max-width: 450px;
     max-height: 200px;
     border: 3px dotted rgb(196, 177, 6);
 }
@@ -200,10 +200,10 @@ p {
 }
 
 .proj-1-image {
-    width: 350px ;
-    height: 350px ;
+    max-width: 450px ;
+    max-height: 350px ;
     align-self: center;
-    border: 3px dotted rgb(196, 177, 6);
+    /* border: 3px dotted rgb(196, 177, 6); */
 }
 
 .proj-1-image:hover, .images:hover {
@@ -250,6 +250,10 @@ a {
     background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}
+
+canvas {
+    position: absolute;
 }
 
 @media screen and (max-width: 750px) {
