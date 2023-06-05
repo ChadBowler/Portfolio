@@ -27,4 +27,4 @@ The best contributions you could make for this project is constructive criticism
 * Avatar created with - Ready Player Me - https://readyplayer.me
 
 
-![Screenshot 6-5-23](https://github.com/ChadBowler/Portfolio/assets/127648744/ea00065a-44f5-406e-86e6-ac6301da3eef)
+
