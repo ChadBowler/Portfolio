@@ -10,7 +10,7 @@ https://chadbowler.github.io/Portfolio/
 
 ## Screenshot
 
-![Chad Bowler - Developer](https://user-images.githubusercontent.com/127648744/235020750-ce556d17-38f3-4397-91bf-6775ba092217.png)
+![Screenshot 6-5-23](https://github.com/ChadBowler/Portfolio/assets/127648744/ea00065a-44f5-406e-86e6-ac6301da3eef)
 
 ## Contributing
 
@@ -27,3 +27,4 @@ The best contributions you could make for this project is constructive criticism
 * Avatar created with - Ready Player Me - https://readyplayer.me
 
 
+![Screenshot 6-5-23](https://github.com/ChadBowler/Portfolio/assets/127648744/ea00065a-44f5-406e-86e6-ac6301da3eef)
