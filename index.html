@@ -1,81 +1,125 @@
 <!DOCTYPE html>
+
 <html lang="en">
+    
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Carter+One&family=Caveat:wght@600&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0fc0059af3.js" crossorigin="anonymous"></script>
     <title>Chad Bowler - Developer</title>
     <link rel="icon" type="image/png" href="./assets/images/Avatar_3.png">
 </head>
+
 <body>
-    <header>
-        <h1>Chad Bowler - Developer</h1>
-        <nav id="topnav">
-            <ul>
-                <li><a href="#about" class="button">About</a></li>
-                <li><a href="#projects" class="button">Projects</a></li>
-                <li><a href="#contact" class="button">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main class="container">
-        <img id="mypic" src="./assets/images/Avatar_3.png" alt="Avatar of me">
-        <div id="about">
-            <h2>About Me</h2>
-            <p>I'm a software developer in the early stages of learning about web development tools. I'm looking to be a full stack developer.</p>
-        </div>
-        <div id="projects">
-            <div id="projects-header">
-                <h2>Projects</h2>
+   
+    <div class="container-fluid" id="main-body">
+        
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" id="header-bar">
+            <div class="container-fluid">
+            <a class="navbar-brand fs-1" id="header-name" href="#">Chad Bowler</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#headerNav" aria-controls="headerNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fa-solid fa-bars" style="color: #ffffff;"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="headerNav">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" data-bs-toggle="collapse" href="#about" role="button" aria-expanded="false" aria-controls="about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" data-bs-toggle="collapse" href="#projects" role="button" aria-expanded="false" aria-controls="projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" data-bs-toggle="collapse" href="#contact" role="button" aria-expanded="false" aria-controls="contact">Contact</a>
+                </li>
+                </ul>
             </div>
-            <section class="card" id="card1">
-               <h2>Weather Dashboard</h2>
-               <a href="https://chadbowler.github.io/weather-dashboard/" target="_blank" class="proj-1-image"><img src="./assets/images/Weather Dashboard (2).png" alt="Picture of circles in a green color scheme" class="proj-1-image images"></a>
-                
-                <p>A weather app to get current weather conditions and a 5-day forecast anywhere in the world! </p>
-                <span>
-                    
-                    <a href="https://github.com/ChadBowler/weather-dashboard" target="_blank" class="button" class="card-button">Github Link</a>
-                </span>
-            </section>
-            <section class="card" id="card2">
-                <h2>Web Development Quiz</h2>
-                <a href="https://chadbowler.github.io/quiz/index.html" target="_blank"><img src="https://user-images.githubusercontent.com/127648744/236595654-89b936a5-cf3c-45c9-86f9-6c8f072f3963.png" alt="" class="images"></a>
-                <p>A quiz app that tests your knowledge of web development.</p>                
-                <span>                    
-                    <a href="https://github.com/ChadBowler/quiz" target="_blank" class="button" class="card-button">Github Link</a>
-                </span>
-            </section>
-            <section class="card" id="card3">
-                <h2>Meal Planner</h2>
-                <a href="https://mateocassidy.github.io/Meal-Planner-Project/" target="_blank"><img src="./assets/images/Screenshot2.png" alt="" class="images"></a>
-                <p>This meal planner gets a calculated daily calorie goal, then gives you the option to search for different foods to meet those goals. This was a collaborative group project.</p>
-                <span>                    
-                    <a href="https://github.com/Mateocassidy/Meal-Planner-Project" target="_blank" class="button" class="card-button">Github Link</a>
-                </span>
-            </section>
+            
+            </div>
+            
+        </nav>
+        <div class="collapse row justify-content-center m-5" id="about">
+            <div class="card card-body col-8">
+                <div class="col-12 row">
+                    <div class="col-md-4">
+                        <img id="mypic" src="./assets/images/Avatar_3.png" alt="Avatar of me">
+                    </div>
+                    <div class="col-md-8" id="about">
+                        <h2>About Me</h2>
+                        <p class="fs-4">I'm a software developer in the early stages of learning about web development tools. I'm looking to be a full stack developer.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="collapse row" id="projects">
+                <div class="card text-center col-5 offset-3 m-5 p-4">
+                    <a class=""  style="color: #1632E0;" data-bs-toggle="collapse" href="#projectCollapse" role="button" aria-expanded="false" aria-controls="projectCollapse">
+                    Projects
+                    </a>
+                </div>
+              <div class="collapse m-3" id="projectCollapse">
+                <div class="row">
+                    <ul class="navbar-nav col row offset-3">
+                        <li class="nav-item m-3 col" style="font-size: 6rem;">
+                            <a class="nav-link project-link active" data-bs-toggle="collapse" href="#project1" role="button" aria-expanded="false" aria-controls="project1">Weather Dashboard</a>
+                            <section class="card col-6 collapse p-4 text-center fs-4" style="width: 60%;" id="project1">
+                                <!-- <h2 class="card-text">Weather Dashboard</h2> -->
+                                <a href="https://chadbowler.github.io/weather-dashboard/" target="_blank" class="proj-1-image"><img src="./assets/images/Weather Dashboard (2).png" alt="Weather Dashboard" class="proj-1-image images card-img p-3"></a>
+                                 
+                                 <p>A weather app to get current weather conditions and a 5-day forecast anywhere in the world! </p>
+                                 <span style="margin: auto;">   
+                                     <a href="https://github.com/ChadBowler/weather-dashboard" target="_blank" class="button" class="card-button"><i class="fa-brands fa-github"></i></a>
+                                 </span>
+                             </section>
+                        </li>
+                        <li class="nav-item m-3 col" style="font-size: 6rem;">
+                            <a class="nav-link project-link active" data-bs-toggle="collapse" href="#project2" role="button" aria-expanded="false" aria-controls="project2">Web Development Quiz</a>
+                            <section class="card col-6 collapse p-4 text-center fs-4" style="width: 60%;" id="project2">
+                                <!-- <h2>Web Development Quiz</h2> -->
+                                <a href="https://chadbowler.github.io/quiz/index.html" target="_blank"><img src="https://user-images.githubusercontent.com/127648744/236595654-89b936a5-cf3c-45c9-86f9-6c8f072f3963.png" alt="" class="images card-img" style="max-width: 250px;"></a>
+                                <p>A quiz app that tests your knowledge of web development.</p>                
+                                <span style="margin: auto;">                    
+                                    <a href="https://github.com/ChadBowler/quiz" target="_blank" class="button" class="card-button"><i class="fa-brands fa-github"></i></a>
+                                </span>
+                            </section>
+                        </li>
+                        <li class="nav-item m-3 col" style="font-size: 6rem;">
+                            <a class="nav-link project-link active" data-bs-toggle="collapse" href="#project3" role="button" aria-expanded="false" aria-controls="project3">Meal Planner</a>
+                            <section class="card collapse p-4 text-center fs-4" style="width: 60%;" id="project3">
+                                <!-- <h2>Meal Planner</h2> -->
+                                <a href="https://mateocassidy.github.io/Meal-Planner-Project/" target="_blank"><img src="./assets/images/Screenshot2.png" alt="" class="images card-img"></a>
+                                <p>This meal planner gets a calculated daily calorie goal, then gives you the option to search for different foods to meet those goals. This was a collaborative group project.</p>
+                                <span style="margin: auto;">                    
+                                    <a href="https://github.com/Mateocassidy/Meal-Planner-Project" target="_blank" class="button" class="card-button"><i class="fa-brands fa-github"></i></a>
+                                </span>
+                            </section>
+                        </li>
+                    </ul>
+                </div>
+              </div> 
+        </div>
+        <div class="collapse card m-5 p-4" id="contact">
+                    <h2>Contact Me</h2>
+                    <p>By Phone: (801) 471-4898</p>
+                    <br>
+                    <p>By Email: cbowlerdev@gmail.com</p>
+                    <br>
+                    <a href="https://github.com/ChadBowler" target="_blank" class="link">
+                        <p>Check out my Github! <i class="fa-brands fa-github"></i></p>
+                    </a>
         </div>
         <!-- <canvas></canvas> -->
-    </main>
-    <div id="contact">
-        <h2>Contact Me</h2>
-        <p>By Phone: (801) 471-4898</p>
-        <br>
-        <p>By Email: cbowlerdev@gmail.com</p>
-        <br>
-        <a href="https://github.com/ChadBowler" target="_blank" class="link">
-            <p>Check out my Github!</p>
-        </a>
-        
     </div>
-    <footer id="footer">
-        <p>By: Chad Bowler</p>
-    </footer>
     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <script src="./assets/script/canvas.js"></script>
 </body>
+
 </html>
