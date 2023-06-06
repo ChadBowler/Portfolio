@@ -10,7 +10,7 @@ https://chadbowler.github.io/Portfolio/
 
 ## Screenshot
 
-![Screenshot 6-5-23](https://github.com/ChadBowler/Portfolio/assets/127648744/ea00065a-44f5-406e-86e6-ac6301da3eef)
+![Portfolio Screenshot 6-5-2023](https://github.com/ChadBowler/Portfolio/assets/127648744/26d54589-1838-4cc4-8d01-6131435b9a6b)
 
 ## Contributing
 
