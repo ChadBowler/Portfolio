@@ -157,6 +157,10 @@ p {
     background: #200122;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background: url(../images/red_and_blue_code_2.png);
+    background-position: center;
+    background-size: contain;
 }
 
 /* #projects {
@@ -192,6 +196,7 @@ p {
 #projects {
     font-family: 'Caveat', cursive;
     font-size: 6rem;
+    text-shadow: 5px 5px black;
 }
 
 
